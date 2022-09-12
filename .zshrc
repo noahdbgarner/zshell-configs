@@ -101,11 +101,11 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Example aliases
-alias zk='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/zookeeper.properties &'
-alias kf='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/server.properties &'
-alias zks='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-stop.sh'
-alias kfs='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-stop.sh'
+alias szk='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/zookeeper.properties &'
+alias skf='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/server.properties &'
+alias ezk='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-stop.sh'
+alias ekf='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-stop.sh'
 
 
 # git aliases
- alias pzs='cp ~/.zshrc . && git commit -am "updating" && git push'
+ alias pzs='cp ~/.zshrc ~/Code/zsh-configs && git commit -am "updating" && git push'
