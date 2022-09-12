@@ -96,10 +96,16 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
+
+
+
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zk='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/zookeeper.properties &'
 alias kf='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-start.sh ~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/config/server.properties &'
 alias zks='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/zookeeper-server-stop.sh'
 alias kfs='~/Code/Vader-Sentiment-On-Realtime-Media-Data/kafka_2.13-3.2.1/bin/kafka-server-stop.sh'
+
+
+# git aliases
+ alias pzs='cp ~/.zshrc . && git commit -am "updating" && git push'
